@@ -134,7 +134,7 @@ class LocalService {
       'repeated_channel', // Channel ID for repeated notifications
       'Repeated Notifications', // Channel name
 
-      channelDescription: 'This channel is used for repeated notifications.', // Channel description
+      channelDescription: 'This channel is used for repeated notifications.', // Channel description for local
       importance: Importance.high, // Notification priority
       priority: Priority.high, // System priority level
       sound: UriAndroidNotificationSound('sondfor'), // Potential issue: Should use RawResource instead
